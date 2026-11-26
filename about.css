@@ -1,0 +1,31 @@
+/* Editorial profile: poster, introduction, capability index, closing line. */
+.about{padding-bottom:0}
+.about-heading{align-items:baseline;gap:24px}
+.about-heading h2{font-size:clamp(28px,3vw,44px);letter-spacing:-.045em}
+.about-heading .eyebrow{max-width:255px;text-align:right;font-size:11px;line-height:1.6;color:var(--muted)}
+.about-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8vw;align-items:start;padding:54px 0 64px}
+.about-poster{background:#e9ece4;color:#283027;min-height:580px;aspect-ratio:.84;padding:34px;display:flex;flex-direction:column;position:relative}
+.poster-topline{display:flex;justify-content:space-between;align-items:center;padding-bottom:21px;border-bottom:1px solid #28302740;font-size:11px;letter-spacing:.06em}
+.poster-topline>span:last-child{font-size:29px;line-height:1}
+.poster-headline{font-size:clamp(31px,4.1vw,68px);font-weight:500;letter-spacing:-.055em;line-height:1.2;margin-top:48px}
+.poster-signature{padding-top:50px;margin-top:auto}
+.poster-name{display:block;font-size:clamp(30px,3.5vw,56px);font-weight:550;letter-spacing:-.055em;line-height:1.1;padding-bottom:19px;border-bottom:1px solid #28302740}
+.poster-signature p{font-size:12px;letter-spacing:.035em;margin-top:16px;line-height:1.6}
+.about-profile{min-width:0;padding-top:5px}
+.about-profile h3{font-size:clamp(27px,3.4vw,52px);line-height:1.22;font-weight:500;letter-spacing:-.045em;margin:0 0 31px}
+.about-profile>p{font-size:16px;line-height:1.95;margin-bottom:24px;color:#484b44;text-wrap:pretty}
+.about-profile>p:last-child{margin-bottom:0}
+html[lang="en"] .poster-headline{font-size:clamp(30px,4.2vw,68px);letter-spacing:-.055em;line-height:1.06}
+html[lang="en"] .about-profile h3{font-size:clamp(26px,3vw,46px);line-height:1.14;letter-spacing:-.045em}
+html[lang="en"] .about-profile>p{line-height:1.8}
+.about-capabilities{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8vw;padding-bottom:52px}
+.capability-column{border-top:1px solid var(--ink);padding-top:22px}
+.capability-column h3{font-size:13px;letter-spacing:.025em;margin:0 0 24px;font-weight:550}
+.capability-column ol{list-style:none;margin:0;padding:0;counter-reset:capability}
+.capability-column li{counter-increment:capability;position:relative;padding:15px 0 15px 34px;border-top:1px solid var(--line);font-size:16px;line-height:1.65;overflow-wrap:anywhere}
+.capability-column li:before{content:counter(capability,decimal-leading-zero);position:absolute;left:0;top:18px;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.skill-note{font-size:13px;color:var(--muted)}
+.about-motto{border-top:1px solid var(--line);padding:34px 0 81px;font-size:clamp(20px,2.15vw,34px);letter-spacing:-.035em;line-height:1.5}
+html[lang="en"] .about-motto{font-size:clamp(18px,2.1vw,32px);line-height:1.35}
+@media(max-width:1000px) and (min-width:701px){.about-layout,.about-capabilities{gap:5vw}.about-poster{padding:26px;min-height:510px}.about-profile>p{font-size:15px;line-height:1.85}.poster-headline{margin-top:35px}.about-heading .eyebrow{max-width:190px;font-size:10px}}
+@media(max-width:700px){.about-layout{grid-template-columns:1fr;gap:38px;padding:32px 0 43px}.about-poster{min-height:0;aspect-ratio:.94;padding:28px;max-width:100%}.poster-headline,html[lang="en"] .poster-headline{font-size:clamp(34px,9.5vw,58px);margin-top:37px}.poster-name{font-size:39px}.poster-signature{padding-top:66px}.poster-signature p{font-size:11px}.about-profile h3{font-size:clamp(30px,6vw,42px);margin-bottom:24px}.about-profile>p{font-size:16px;line-height:1.95}.about-capabilities{grid-template-columns:1fr;gap:34px;padding-bottom:32px}.capability-column{padding-top:19px}.capability-column h3{margin-bottom:19px;font-size:13px}.capability-column li{font-size:15px;padding-top:13px;padding-bottom:13px}.capability-column li:before{top:16px}.about-motto{font-size:23px;padding:28px 0 55px}.about-heading{flex-direction:column;gap:9px}.about-heading .eyebrow{display:block;text-align:left;max-width:none;font-size:10px}.about-heading h2{font-size:29px}html[lang="en"] .about-profile h3{font-size:clamp(29px,6vw,42px)}}

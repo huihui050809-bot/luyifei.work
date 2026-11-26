@@ -1,0 +1,74 @@
+[
+  {
+    "id": "technology-exhibition",
+    "width": 9600,
+    "sha256": "1CA3CA909793E58A4A509F094B4A77193009D90A37663673606B4CF1BC27AFC0",
+    "height": 2460,
+    "cat": "exhibition",
+    "name": {
+      "zh": "科技企业展陈设计",
+      "en": "TECHNOLOGY EXHIBITION"
+    },
+    "file": "technology-exhibition-p1.jpg"
+  },
+  {
+    "id": "community-space",
+    "width": 1080,
+    "sha256": "2B227EBB85F5DA502DB73EA02BE920B7A76BB30F87969904BF1FAB466F45544C",
+    "height": 1425,
+    "cat": "space",
+    "name": {
+      "zh": "社区文化空间设计",
+      "en": "COMMUNITY SPACE"
+    },
+    "file": "community-space.jpg"
+  },
+  {
+    "id": "party-branding",
+    "width": 19996,
+    "sha256": "B556F412F6CB8FB7FF74DCFFA9917D95AE74F5C5657E76EF9A1BE82638BB2BBC",
+    "height": 2162,
+    "cat": "brand",
+    "name": {
+      "zh": "党建品牌视觉设计",
+      "en": "PARTY BRANDING"
+    },
+    "file": "party-branding.png"
+  },
+  {
+    "id": "smart-manufacturing",
+    "width": 11635,
+    "sha256": "260121B1E43EA1B3C4DBF3D2CEE134CFA4B198D6D76936307F7DA4906A20EB34",
+    "height": 1667,
+    "cat": "exhibition",
+    "name": {
+      "zh": "智能制造展陈设计",
+      "en": "SMART MANUFACTURING"
+    },
+    "file": "smart-manufacturing.png"
+  },
+  {
+    "id": "corporate-culture",
+    "width": 15640,
+    "sha256": "CABEF109738C3E369BE2BA8A003404CAC6241ABF3861DDDF4E6E1CB1DE86FA0D",
+    "height": 3178,
+    "cat": "exhibition",
+    "name": {
+      "zh": "企业文化展厅设计",
+      "en": "CORPORATE CULTURE"
+    },
+    "file": "corporate-culture.jpg"
+  },
+  {
+    "id": "elderly-care-space",
+    "width": 1780,
+    "sha256": "15DCA5D78214447E276B33E0E9772A1F7C89E93C83B39D64E51DB5DE6A837A45",
+    "height": 1280,
+    "cat": "space",
+    "name": {
+      "zh": "养老服务空间设计",
+      "en": "ELDERLY CARE SPACE"
+    },
+    "file": "elderly-care-space.jpg"
+  }
+]
